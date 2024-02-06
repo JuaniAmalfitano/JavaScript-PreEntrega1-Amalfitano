@@ -1,6 +1,8 @@
 const PORCENTAJEXDIAPESOS = 0.3013698630136;
 const PORCENTAJEXDIADOLARES = 0.0013698630136;
 
+//FUNCIONES
+
 function limitarDecimales(numero) {
     return Number(numero);
 }
@@ -80,7 +82,8 @@ function main() {
     }
 }
 
-// Llamamos a la función principal
+//LLAMANDO A LA FUNCION MAIN QUE CONTIENE OTRAS FUNCIONES DEPENDIENDO QUE ELIJA EL USUARIO
+
 main();
 
 
